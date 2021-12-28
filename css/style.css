@@ -1,0 +1,132 @@
+.body {
+    background-color: #C6D5FF;
+}
+.header {
+    background-color: #C6D5FF;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-style: outset;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 36px;
+    padding: 4px 30px;
+    padding-right: 0px;
+    width: 1790px;
+
+}
+.Logo_HTML{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+.nav-ul {
+    width: 540px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    border-radius: 6px;
+    background-color: #EBEBEB;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+.main {
+    color: #A00000;
+}
+.navigation {
+    font-size: 20px;
+    font-family: Roboto;
+    color: #000000;
+    font-style: bold;
+}
+.section {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    width: 1820px;
+    border: 5px solid;
+    border-style:groove;
+}
+.coverIMG {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 95px;
+}
+.hdr {
+    font-size: 40px;
+    font-style: bold;
+    font-family: Georgia;
+    padding-bottom: 60px;
+
+}
+.articles {
+    display: grid;
+    grid-template-columns: 870px 870px;
+    grid-template-rows: 775px 1000px;
+    grid-gap: 115px 80px;
+}
+.article1 {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.artcimg1 {
+    width: 870px;
+    height: 520px;
+    object-fit: cover;
+}
+.article1 h3 {
+    font-size: 25px;
+}
+.article2 {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.article2 img {
+    width: 870px;
+    height: 520px;
+    object-fit: cover;
+}
+.article2 h3 {
+    font-size: 25px;
+}
+.article3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.article3 h3 {
+    font-size: 25px;
+    padding-bottom: 70px;
+}
+.artcimg3 {
+    float: left;
+    width: 870px;
+    height: 520px;
+    object-fit: cover;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.clear {
+    clear: both;
+}
+.footer {
+    background-color:#7F8094;
+    width: 1820px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.footimg {
+    padding: 33.5px 50px;
+    height: 50px;
+}
